@@ -9,3 +9,13 @@ git add beta.txt
 git commit -m "GAMMA agrego datos al beta.txt"
 git push origin Beta
 
+G- Los comandos que se usaron son:
+git fetch 
+git checkout Beta
+git pull
+echo "Nombre y Apellido: Candela Villamil" >> beta.txt
+echo "Informacion ifcofig: " >> beta.txt
+ipconfig >> beta.txt
+git add beta.txt
+git commit -m "Agregando datos de ifconfig de Alfa"
+git push
