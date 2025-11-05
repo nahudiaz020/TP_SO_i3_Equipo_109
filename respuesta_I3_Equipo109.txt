@@ -1,0 +1,11 @@
+Respuestas Gamma
+D- Sí. Después de que ambos hicimos el push en nuestras respectivas ramas, cada una quedó con los cambios actualizados. La rama de BETA contiene tanto los datos que agregó BETA como los que agregué yo (GAMMA), y la rama de GAMMA contiene mis propios cambios.
+E- El principal problema fue que hubo diferencias en los archivos modificados por ambos y Git pidió resolver los conflictos. También hubo inconvenientes con la detección de cambios porque uno de los commits quedó pendiente y hubo que repetir el agregado del archivo. Además, por trabajar en un sistema de archivos sin distinción entre mayúsculas y minúsculas, Git dio advertencias al manejar ramas como “Beta” y “beta”.
+F- En el punto 7 tuve que agregar mis datos al archivo beta.txt dentro de la rama Beta. Los comandos que utilicé fueron:
+git fetch
+git checkout Beta
+nano beta.txt   (agregar mis datos y la salida de ifconfig)
+git add beta.txt
+git commit -m "GAMMA agrego datos al beta.txt"
+git push origin Beta
+
