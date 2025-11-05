@@ -22,3 +22,39 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         TX packets 8  bytes 480 (480.0 B)
         TX errors 0  dropped 0  overruns 0  carrier 0  collisions 0
 
+Nombre y Apellido: Candela Villamil
+Informacion ifconfig: 
+
+Configuraci¢n IP de Windows
+
+
+Adaptador de Ethernet vEthernet (WSL (Hyper-V firewall)):
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::908c:6050:284d:98dd%34
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 172.29.64.1
+   M scara de subred . . . . . . . . . . . . : 255.255.240.0
+   Puerta de enlace predeterminada . . . . . : 
+
+Adaptador de LAN inal mbrica Conexi¢n de  rea local* 1:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+
+Adaptador de LAN inal mbrica Conexi¢n de  rea local* 10:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+
+Adaptador de LAN inal mbrica Wi-Fi:
+
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
+   V¡nculo: direcci¢n IPv6 local. . . : fe80::d141:8e0a:9e2a:dd32%6
+   Direcci¢n IPv4. . . . . . . . . . . . . . : 192.168.1.213
+   M scara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : 192.168.1.1
+
+Adaptador de Ethernet Conexi¢n de red Bluetooth:
+
+   Estado de los medios. . . . . . . . . . . : medios desconectados
+   Sufijo DNS espec¡fico para la conexi¢n. . : 
