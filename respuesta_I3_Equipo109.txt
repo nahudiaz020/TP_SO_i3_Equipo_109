@@ -1,4 +1,12 @@
 Respuestas Gamma
+a- El master contiene los cambios de beta.txt y los archivos asociados fusionados desde GAMMA y las ramas de cada participante, quedando beta.txt consolidado en master tras el merge final. 
+b- Sí, Beta puede ver los cambios si está en la rama correcta y si se hizo merge a master.
+c- Para poder realizar el merge en el punto 5, BETA primero debía ubicarse en la rama principal con el comando git checkout main y asegurarse de tener la versión más actualizada del repositorio mediante git pull origin main. 
+Luego debía ejecutar git merge origin/gamma para combinar los cambios de la rama gamma dentro de main. 
+En caso de que se presentaran conflictos, debía resolverlos manualmente editando los archivos indicados por Git, guardar las modificaciones y confirmarlas con git add . 
+seguido de git commit -m "Resuelve conflictos y realiza merge de gamma a main". 
+Finalmente, debía subir el resultado del merge al repositorio remoto con el comando git push origin main. 
+De esta forma, los cambios realizados en la rama gamma quedaban integrados en la rama principal del proyecto.
 D- Sí. Después de que ambos hicimos el push en nuestras respectivas ramas, cada una quedó con los cambios actualizados. La rama de BETA contiene tanto los datos que agregó BETA como los que agregué yo (GAMMA), y la rama de GAMMA contiene mis propios cambios.
 E- El principal problema fue que hubo diferencias en los archivos modificados por ambos y Git pidió resolver los conflictos. También hubo inconvenientes con la detección de cambios porque uno de los commits quedó pendiente y hubo que repetir el agregado del archivo. Además, por trabajar en un sistema de archivos sin distinción entre mayúsculas y minúsculas, Git dio advertencias al manejar ramas como “Beta” y “beta”.
 F- En el punto 7 tuve que agregar mis datos al archivo beta.txt dentro de la rama Beta. Los comandos que utilicé fueron:
